@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.container{
+    background: linear-gradient(to bottom right,rgb(179, 15, 127),violet,skyblue,pink );
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.todo {
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(77, 0, 77); 
+}
+input{
+    background-color: transparent;
+    color: black;
+    box-shadow: none;
+    border-radius: 5px;
+    border-color: black;
+    border:2px solid rgba(40, 3, 37, 0.933);
+}
+input::placeholder{
+    color: black;
+}
+button{
+    border-radius: 5px;;
+    background-color: transparent;
+    color: black; 
+}
+ul{
+    padding-top: 7px;
+    list-style-type: none;
+    }
